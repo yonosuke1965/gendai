@@ -1,0 +1,101 @@
+\documentclass[autodetect-engine,dvipdfmx-if-dvi,ja=standard,dvipdfmx,openany,twocolumn]{bxjsreport}
+\usepackage{okumacro,plext}
+% \usepackage{natbib}
+\usepackage{url}
+\usepackage{txfonts}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{otf}
+% \usepackage{my_resume}
+\usepackage{graphicx,wrapfig}
+%\usepackage[greek,english]{babel}
+%\usepackage{teubner}
+%\usepackage[dvipdfm,bookmarkstype=toc=true,pdfauthor={江口聡, EGUCHI Satoshi}, pdftitle={}, pdfsubject={},pdfkeywords={},bookmarks=false, bookmarksopen=false,colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black,linktocpage=true]{hyperref}
+  \AtBeginDvi{\special{pdf:tounicode EUC-UCS2}}% platex-utf8 でも OK
+  \author{江口聡・渡邉浩一・佐野泰之（編）}
+\date{京都女子大学\\現代社会学部\\2018}
+\title{現代社会入門I\\資料集}
+\if0 %----------------------------------------------------------------
+
+\fi  %----------------------------------------------------------------
+\setcounter{tocdepth}{1}
+
+% \includeonly{machiavelli}
+% \includeonly{hobbes}
+% \includeonly{locke}
+% \includeonly{montesquieu}
+% \includeonly{smith}
+% \includeonly{rousseau}
+% \includeonly{wollstonecraft}
+% \includeonly{kant}
+% \includeonly{revolution}
+% \includeonly{burke}
+% \includeonly{tocqueville}
+% \includeonly{mill}
+% \includeonly{engels}
+% \includeonly{durkheim}
+% \includeonly{weber}
+% \includeonly{fukuzawa}
+% \includeonly{humanrights}
+%\includeonly{beauvoir}
+
+
+
+\begin{document} % ----------------------------------------------------------------
+
+\maketitle
+\tableofcontents
+% \include{machiavelli}
+\include{contract}
+\include{enlightment}
+\include{revolution}
+% \include{burke}
+\include{wollstonecraft}
+% \include{kant}
+% \include{tocqueville}
+\include{mill}
+\include{thoreau}
+\include{marx}
+\include{darwin}                % やっぱりスペンサーとハクスリー
+\include{durkheim}
+% \include{weber}
+\include{fukuzawa}
+\include{beauvoir}
+\include{humanrights}
+
+% 
+
+\if0 % ----------------
+
+ガンジー・キング牧師
+ゴドウィン
+マルサス
+ヴォルテール
+ベンサム
+ベッカリーア
+マンデヴィル
+
+\fi % ----------------
+
+
+
+
+
+% \bibliographystyle{eguchi}  
+% \bibliography{bib}
+
+
+
+\end{document} %----------------------------------------------------------------
+
+
+
+
+
+
+
+%%% Local Variables:
+%%% mode: japanese-latex
+%%% TeX-master: t
+%%% coding: utf-8
+%%% End:

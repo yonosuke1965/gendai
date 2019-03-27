@@ -1,0 +1,74 @@
+\ifx\mybook\undefined
+\documentclass[uplatex,dvipdfmx]{jsarticle}
+\usepackage{okumacro,plext}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{txfonts}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{otf}
+%\usepackage{my_resume}
+%\usepackage{graphicx,wrapfig}
+%\usepackage[greek,english]{babel}
+%\usepackage{teubner}
+%\usepackage[dvipdfm,bookmarkstype=toc=true,pdfauthor={江口聡, EGUCHI Satoshi}, pdftitle={}, pdfsubject={},pdfkeywords={},bookmarks=false, bookmarksopen=false,colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black,linktocpage=true]{hyperref}
+  \AtBeginDvi{\special{pdf:tounicode EUC-UCS2}}% platex-utf8 でも OK
+\author{江口聡}
+%\date{}
+\title{19世紀の社会科学}
+\if0 %----------------------------------------------------------------
+
+\fi  %----------------------------------------------------------------
+\begin{document}
+\maketitle
+\else\chapter{社会学の成立}\fi
+
+
+
+\label{cha:19century}
+
+
+\section{社会学の成立}
+
+\section{コントの実証主義}
+
+\begin{itemize}
+\item コント (Auguste Comte, 1798--1857)。サン=シモンの弟子。
+\item 人類の知的進歩。神学的段階（想像） → 形而上学的段階（理性・論理） → 実証的（科学的）段階 （観察、実証）。
+\item 「社会学」。歴史学、心理学、経済学を統合。社会の秩序と人類の進歩に寄与する。
+\end{itemize}
+
+
+
+\section{社会学の成立}
+\begin{itemize}
+\item マルクス (Karl Marx, 1818-83)。『資本論』。宗教・思想・道徳などの上部構造は、経済という下部構造に依存する。
+\item デュルケーム。(\'{E}mile Durkheim, 1858-1917)。『社会分業論』『宗教生活の原初形態』。『自殺論』。統計資料を駆使して、自殺を個人の心理ではなく社会的要因から説明。
+\item ウェーバー（ヴェーバー）。(Max Weber, 1864-1920)。人間の内面から社会的行為を理解する理解社会学。『プロテスタンティズムの倫理と資本主義の精神』。資本主義の発展は、カルヴァン主義の禁欲と合理性。（⇔ マルクス）
+\item ジンメル。(Georg Simmel, 1858-1918) 『貨幣の哲学』
+\item 各種の統計の収集、分析 → 統計学の発展。エンゲルのエンゲル係数（家計における食費の割合）など。
+\end{itemize}
+
+
+
+
+
+
+\ifx\mybook\undefined
+\bibliographystyle{eguchi}  
+\bibliography{bib,library}
+
+
+\end{document} %----------------------------------------------------------------
+\fi
+
+
+
+
+
+
+%%% Local Variables:
+%%% mode: japanese-latex
+%%% TeX-master: t
+%%% coding: utf-8
+%%% End:
