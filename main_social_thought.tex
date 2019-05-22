@@ -1,4 +1,4 @@
-\documentclass[uplatex,dvipdfmx,openany,oneside,report]{jsbook}
+\documentclass[uplatex,dvipdfmx,openany,oneside,report]{bxjsbook}
 \usepackage{okumacro,plext}
 \usepackage{natbib}
 \usepackage{url}
@@ -21,16 +21,16 @@
 
 \newcommand\mybook{}
 
-\makeindex
+
 
 \begin{document}
 
 
 \maketitle{}
 \frontmatter
-\tableofcontents{}
-\include{0-why}
 
+\tableofcontents{}
+\include{00-why}
 \mainmatter
 \include{01-greek}
 \include{02-christian}
@@ -42,14 +42,16 @@
 \include{19c-utilitarianism}
 \include{19c-romantic-hegel}
 \include{19c-socialism}
-% \include{darwin2011}
+ \include{darwin2011}
 \include{19c-science}
-% \include{19century}
+ \include{19century}
 \include{19c-sociology}
 \include{20c-humanrights}
 \include{20c-japan}
 \include{20c-gender}
-% \include{modern2011}
+\include{modern}
+
+
 
 % \appendix{}
 % \include{nenpyo}
