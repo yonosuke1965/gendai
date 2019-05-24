@@ -1,0 +1,72 @@
+\documentclass[uplatex,dvipdfmx,openany,oneside,report]{jsbook}
+\usepackage{okumacro,plext}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{chapterbib}
+\usepackage{txfonts}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{otf}
+\usepackage{tabularx}
+%\usepackage{my_resume}
+%\usepackage{graphicx,wrapfig}
+%\usepackage[greek,english]{babel}
+%\usepackage{teubner}
+%\usepackage[dvipdfm,bookmarkstype=toc=true,pdfauthor={江口聡, EGUCHI Satoshi}, pdftitle={}, pdfsubject={},pdfkeywords={},bookmarks=false, bookmarksopen=false,colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black,linktocpage=true]{hyperref}
+%  \AtBeginDvi{\special{pdf:tounicode EUC-UCS2}}% platex-utf8 でも OK
+\author{江口聡}
+\title{京女生のためのミニマム社会思想入門}
+\if0 %----------------------------------------------------------------
+\fi  %----------------------------------------------------------------
+
+\newcommand\mybook{}
+
+\makeindex
+
+\begin{document}
+
+
+\maketitle{}
+\frontmatter
+\tableofcontents{}
+\include{0-why}
+
+\mainmatter
+\include{01-greek}
+\include{02-christian}
+\include{14-renaissance}
+\include{17c-science}
+\include{17c-contract}
+\include{18c-enlightment}
+\include{18c-economics}
+\include{19c-utilitarianism}
+\include{19c-romantic-hegel}
+\include{19c-socialism}
+% \include{darwin2011}
+\include{19c-science}
+% \include{19century}
+\include{19c-sociology}
+\include{20c-humanrights}
+\include{20c-japan}
+\include{20c-gender}
+% \include{modern2011}
+
+% \appendix{}
+% \include{nenpyo}
+
+\bibliographystyle{jecon}  
+\bibliography{bib}
+
+\end{document} %----------------------------------------------------------------
+
+
+
+
+
+
+
+%%% Local Variables:
+%%% mode: japanese-latex
+%%% TeX-master: t
+%%% coding: utf-8
+%%% End:
